@@ -1,0 +1,27 @@
+{
+    "name": "transaction_history_v2",
+    "version": "2.0.1",
+    "description": "Game Version V2 ",
+    "main": "server.js",
+    "scripts": {
+      "start_uat": "pm2 start server.js --time --name 'Transaction History API_UAT'",
+      "restart_uat": "pm2 restart server.js --time --name 'Transaction History API_UAT'",
+      "start": "pm2 start server.js --time --name 'Transaction History API_PROD'",
+      "restart": "pm2 restart server.js --time --name 'Transaction History API_PROD'",
+      
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Abhay Pratap Singh",
+    "license": "GAMESAPP",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "express-useragent": "^1.0.15",
+      "jsonwebtoken": "^8.5.1",
+      "mysql2": "^2.3.2",
+      "request": "^2.88.2",
+      "sequelize": "^5.2.1",
+      "sequelize-cli": "^6.2.0"
+    }
+  }

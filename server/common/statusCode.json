@@ -1,0 +1,10 @@
+{
+    "200":"Success",
+    "400":"Bad Request",
+    "401":"Unauthorized Request",
+    "403":"Forbidden",
+    "404":"Not Found",
+    "424":"Failed Dependency",
+    "500":"Internal Server Error.",
+    "502":"DB Error"
+}
